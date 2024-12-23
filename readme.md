@@ -1,6 +1,6 @@
 # Reference-based Denoising with Dynamic Reference Acquisition
 
-This is the implementation of reference-based denoising with dynamic reference acquisition ([paper link when published]). The package implements dynamic control of illumination power during image acquisition to generate data that can be restored with reference-based denoising, resulting in an order-of-magnitude reduction in photobleaching at no cost to spatiotemporal resolution.
+This is the implementation of reference-based denoising with dynamic reference acquisition. The package implements dynamic control of illumination power during image acquisition to generate data that can be restored with reference-based denoising, resulting in an order-of-magnitude reduction in photobleaching at no cost to spatiotemporal resolution.
 
 The package features camera and microscope control via [pycro-manager](https://github.com/micro-manager/pycro-manager), serial commands, and [nidaqmx](https://github.com/ni/nidaqmx-python). The control of illumination power is implemented in a modular way to facilitate easy modification for any imaging system.
 
