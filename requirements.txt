@@ -1,0 +1,10 @@
+nidaqmx == 0.6.5
+numpy == 1.23.3
+tifffile == 2022.10.10
+pycromanager = 0.23.0
+pyserial == 3.5
+pillow == 9.2.0
+torch == 1.12.1+cu113
+torchvision == 0.13.1+cu113
+einops == 0.4.1
+tqdm == 4.64.1
